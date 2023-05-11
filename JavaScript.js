@@ -21,9 +21,7 @@ const listPeople = async () => {
 
     div.innerHTML = `
       <div>
-        <p>Name: ${people.name}</p>
-        <p>Gender: ${people.gender}</p>
-        <p>${people.height}</p>
+        <p>Name: ${people.name} Gender: ${people.gender} Height: ${people.height}</p>
       </div>`;
 
     document.getElementById('list').appendChild(div);
