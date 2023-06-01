@@ -1,0 +1,17 @@
+header {
+    grid-column: 1/ 3;
+
+    padding: 10px;
+    border: 2.5px solid #000000;
+
+    background-color: var(--First-color);
+}
+
+footer {
+    grid-column: 1/ 3;
+
+    padding: 10px;
+    border: 2.5px solid #000000;
+
+    background-color: var(--Third-color);
+}
