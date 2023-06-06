@@ -13,15 +13,4 @@ const DisplaylistPeople = async (element, peoples) => {
     });
 };
 
-const DisplayPeopleId = async (element, people) => {
-
-    const en = document.createElement('div');
-    en.classList.add('personId');
-
-    en.innerHTML = `
-        <div>
-            <p>Name: ${people.name} Gender: ${people.gender} Height: ${people.height}</p>
-        </div>`;
-
-    document.querySelector(element).appendChild(en);
-};
+export { DisplaylistPeople };
